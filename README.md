@@ -11,7 +11,10 @@ This is a very basic assignment for you to practice **pandas** and **numpy**. Th
 3. Only use python codes and libraries to generate this portfolio plot. The starting date and ending date for the plot should be **2011-01-01** and **2011-12-31**
 And you only use **Adj close** price for all the tradings. 
 
-4. In the **util.py** file, there are some build-up functions that could help you to do the assignment. 
+4. In the **util.py** file, there are some build-up functions that could help you to do the assignment. Here is one example about how to use **get_data function**
+
+### get the form of daily stock prices, Symbol_list can be something like ['XOM','IBM']
+price = get_data(Symbol_list,pd.date_range(start_date, end_date))
 
 5. Here are the equations for **average daily return** and **sharp ratio**:
 
