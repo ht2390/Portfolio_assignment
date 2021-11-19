@@ -14,6 +14,7 @@ And you only use **Adj close** price for all the tradings.
 4. In the **util.py** file, there are some build-up functions that could help you to do the assignment. Here is one example about how to use **get_data function**
 
     (**get the form of daily stock prices, Symbol_list can be something like ['XOM','IBM']**)
+    
     price = get_data(Symbol_list,pd.date_range(start_date, end_date))
 
 5. Here are the equations for **average daily return** and **sharp ratio**:
