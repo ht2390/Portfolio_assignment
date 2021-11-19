@@ -16,7 +16,8 @@ And you only use **Adj close** price for all the tradings.
 5. Here are the equations for **average daily return** and **sharp ratio**:
 
 daily_return = ( today's_portfolio_value / yesterday's_portfolio_value ) - 1 
-( The first day doesn't have a valid daily return, you can get rid of the first value on daily_return vector)
+
+( Note: The first day doesn't have a valid daily return, you can get rid of the first value on daily_return vector)
 
 
 average_daily_return = daily_return.mean()
