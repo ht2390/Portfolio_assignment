@@ -27,3 +27,7 @@ daily_return = ( today's_portfolio_value / yesterday's_portfolio_value ) - 1
 average_daily_return = daily_return.mean()
 
 sharpe_ratio = np.sqrt(252) * average_daily_return / daily_return.std()
+
+6. You can also add some other technical indicators into the plot like : MA lines, Bollinger Bands, and momentum. 
+
+![image](https://user-images.githubusercontent.com/15803101/143060487-b7614741-7536-429e-a84b-1286f27b660e.png)
