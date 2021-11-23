@@ -1,9 +1,5 @@
-"""MLT: Utility code.  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-Copyright 2017, Georgia Tech Research Corporation  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-Atlanta, Georgia 30332-0415  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-All Rights Reserved  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-"""  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
+""": Utility code.  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
+ 			  		 			     			  	  		 	  	 		 			  		  			
   		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
 import os  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
   		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
@@ -59,18 +55,4 @@ def get_orders_data_file(basefilename):
     )  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
   		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
   		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-def get_learner_data_file(basefilename):  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-    return open(  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-        os.path.join(  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-            os.environ.get("LEARNER_DATA_DIR", "Data/"), basefilename  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-        ),  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-        "r",  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-    )  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-def get_robot_world_file(basefilename):  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-    return open(  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-        os.path.join(  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-            os.environ.get("ROBOT_WORLDS_DIR", "testworlds/"), basefilename  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-        )  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
-    )  		  	   		   	 			  		 			     			  	  		 	  	 		 			  		  			
+	   	 			  		 			     			  	  		 	  	 		 			  		  			
